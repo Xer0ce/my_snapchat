@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, TouchableOpacity, Image} from 'react-native';
 import { Alert } from 'react-native';
+import NextScreen from './Nextscreen';
 
 export default function App() {
   return (
@@ -13,7 +14,6 @@ export default function App() {
           <Text style={styles.buttonText}>INSCRIPTION</Text>
         </TouchableOpacity>
       </View>
-
       <View style={styles.connexionContainer}>
         <TouchableOpacity
           onPress={() => Alert.alert('La grosse mère la pute de Félix')}
@@ -51,12 +51,11 @@ const styles = StyleSheet.create({
   button: {
     backgroundColor: '#87CEFA',
     paddingVertical: 20,
-    paddingHorizontal: 132,
+    paddingHorizontal: 135,
   },
   buttonText: {
     color: 'white',
-    fontSize: 25,
-    paddingHorizontal: '0%',
+    fontSize: 23,
   },
 
 
